@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.testzebrapda">
+	<uses-sdk android:minSdkVersion="30" android:targetSdkVersion="33" />
+	<uses-permission android:name="com.symbol.emdk.permission.EMDK" />
+	<application android:label="TestZebraPDA.Android" android:theme="@style/MainTheme">
+		<uses-library android:name="com.symbol.emdk" />
+	</application>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<queries>
+		<package android:name="com.symbol.emdk.emdkservice" />
+	</queries>
+</manifest>
