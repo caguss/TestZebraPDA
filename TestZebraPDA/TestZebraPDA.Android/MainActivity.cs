@@ -17,7 +17,7 @@ namespace TestZebraPDA.Droid
         /// <summary>
         /// EMDK Manager 사용으로 다른 라이브러리랑 다르게 MainActivity 에서 선언해야 함.
         /// EMDK 리스너는 네이티브에서 돌려야 하므로  Forms 부분에서는 작업 할 내용은 Thread를 통해 UI를 변경해야 함.
-        /// 
+        /// AndroidManifest 에서 권한허용, 추가코드라인 있음
         /// </summary>
         private EMDKManager emdkManager = null; 
         private BarcodeManager barcodeManager = null; 
